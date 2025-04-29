@@ -6,7 +6,12 @@ Uma aplicação web de lista de tarefas com um design moderno, com uma interface
 
 ## 🚀 Demonstração
 
-![Demonstração da aplicação](./img/demo.gif)
+   <p align="center">
+  <img alt="Agregador de Links" src="https://i.ibb.co/TDQXSHzC/listadetarefas.png" width="30%">
+</p>
+ 
+
+https://to-do-list-lenin.vercel.app/
 
 ## 📋 Funcionalidades
 
