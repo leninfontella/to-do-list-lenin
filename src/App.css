@@ -1,0 +1,149 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  padding: 30px;
+  color: #e0e0e0;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(40, 40, 40, 0.7);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+p {
+  margin: 10px 0;
+  color: #d0d0d0;
+}
+
+input,
+select {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.8); /* Novo fundo: cinza escuro */
+  color: #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
+}
+
+input::placeholder,
+select {
+  color: #888; /* Cor mais escura no placeholder/texto inicial */
+}
+
+button {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  backdrop-filter: blur(4px);
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.todo {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+
+.complete {
+  background: linear-gradient(
+    135deg,
+    #00c853,
+    #64dd17
+  ); /* Verde neon degradê */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.complete:hover {
+  background: linear-gradient(135deg, #00e676, #76ff03);
+}
+
+.remove {
+  background: linear-gradient(
+    135deg,
+    #d50000,
+    #ff1744
+  ); /* Vermelho neon degradê */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remove:hover {
+  background: linear-gradient(135deg, #ff1744, #ff5252);
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+.filter,
+.search {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.filter-options div {
+  flex: 1;
+}
+
+.footer {
+  font-size: 11px;
+}
